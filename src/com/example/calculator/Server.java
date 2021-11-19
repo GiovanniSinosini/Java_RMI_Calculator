@@ -10,7 +10,7 @@ public class Server {
 
 	public static void main(String[] args) {
 		
-		JFrame window = new JFrame("TecnoCell");
+		JFrame window = new JFrame("Calculator RMI");
 		window.setAlwaysOnTop(true);
 		window.setUndecorated(true);
 		

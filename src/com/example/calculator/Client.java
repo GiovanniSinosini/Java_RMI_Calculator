@@ -12,7 +12,7 @@ public class Client {
 
 	public static void main(String[] args) {
 
-		JFrame window = new JFrame("TecnoCell");
+		JFrame window = new JFrame("Calculator RMI");
 		window.setAlwaysOnTop(true);
 		window.setUndecorated(true);
 
@@ -37,24 +37,24 @@ public class Client {
 				switch (menu) {
 
 				case "1": {
-					int x = Integer.parseInt(JOptionPane.showInputDialog("Enter valeu 1:"));
-					int y = Integer.parseInt(JOptionPane.showInputDialog("Enter valeu 2:"));
+					int x = Integer.parseInt(JOptionPane.showInputDialog("Enter value 1:"));
+					int y = Integer.parseInt(JOptionPane.showInputDialog("Enter value 2:"));
 
 					JOptionPane.showMessageDialog(null, "Sum result: " + calculator.sum(x, y));
 					break;
 				}
 
 				case "2": {
-					int x = Integer.parseInt(JOptionPane.showInputDialog("Enter valeu 1:"));
-					int y = Integer.parseInt(JOptionPane.showInputDialog("Enter valeu 2:"));
+					int x = Integer.parseInt(JOptionPane.showInputDialog("Enter value 1:"));
+					int y = Integer.parseInt(JOptionPane.showInputDialog("Enter value 2:"));
 
 					JOptionPane.showMessageDialog(null, "Subtraction result: " + calculator.sub(x, y));
 					break;
 				}
 
 				case "3": {
-					int x = Integer.parseInt(JOptionPane.showInputDialog("Enter valeu 1:"));
-					int y = Integer.parseInt(JOptionPane.showInputDialog("Enter valeu 2:"));
+					int x = Integer.parseInt(JOptionPane.showInputDialog("Enter value 1:"));
+					int y = Integer.parseInt(JOptionPane.showInputDialog("Enter value 2:"));
 
 					JOptionPane.showMessageDialog(null, "Multiplication result: " + calculator.mul(x, y));
 					break;
@@ -62,8 +62,8 @@ public class Client {
 				}
 
 				case "4": {
-					int x = Integer.parseInt(JOptionPane.showInputDialog("Enter valeu 1:"));
-					int y = Integer.parseInt(JOptionPane.showInputDialog("Enter valeu 2:"));
+					int x = Integer.parseInt(JOptionPane.showInputDialog("Enter value 1:"));
+					int y = Integer.parseInt(JOptionPane.showInputDialog("Enter value 2:"));
 
 					JOptionPane.showMessageDialog(null, "Division result: " + calculator.div(x, y));
 					break;
